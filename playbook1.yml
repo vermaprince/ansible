@@ -1,1 +1,16 @@
+---
+
+NAME: First Ansible Playbook
+
+HOSTS: server-farm
+become: true
+become-user:root
+gather-facts:true
+
+
+VARIABLES
+
+TASKS
+
+HANDLERS
 
