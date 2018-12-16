@@ -1,5 +1,7 @@
-- name: Creates directory
 - hosts: all
-- file:
-    - path: /casestudy/createdirectoryAnsible
-    - state: directory
+  tasks:
+  - name: ansible create directory with mode setting example
+    file:
+      path: /casestudy/createdirectoryAnsible/new
+      state: directory
+      mode: "u=rw,g=wx,o=rwx"
