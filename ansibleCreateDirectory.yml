@@ -1,8 +1,5 @@
 - hosts: all
 
-become: true
-become-user:root
-
   tasks:
   - name: ansible create directory with mode setting example
     file:
