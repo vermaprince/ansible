@@ -1,6 +1,4 @@
----
-
-NAME: First Ansible Playbook
+- NAME: First Ansible Playbook
 
 HOSTS: server-farm
 become: true
