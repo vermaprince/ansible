@@ -4,4 +4,4 @@
     file:
       path: /casestudy/createdirectoryAnsible/new
       state: directory
-      mode: "u=rw,g=wx,o=rwx"
+
