@@ -1,5 +1,5 @@
 - name: Creates directory
 - hosts: all
 - file:
-    path: /casestudy/createdirectoryAnsible
-    state: directory
+    - path: /casestudy/createdirectoryAnsible
+    - state: directory
