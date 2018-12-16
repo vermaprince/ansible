@@ -1,0 +1,5 @@
+---
+- name: Creates directory
+  file:
+    path: /casestudy/createdirectoryAnsible
+    state: directory
