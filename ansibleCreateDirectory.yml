@@ -5,7 +5,7 @@
     file:
       path: /casestudy/createdirectoryAnsible/new
       state: directory
-      owner:centosuser
-      group:centosuser
-      mode:0755
+      owner: centosuser
+      group: centosuser
+      mode: 0755
 
